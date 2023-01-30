@@ -1,0 +1,6 @@
+-- Task
+CREATE OR REPLACE TASK epam_lab.public.move_data_from_stage_to_dwh
+    WAREHOUSE = COMPUTE_WH
+    SUSPEND_TASK_AFTER_NUM_FAILURES = 1
+AS
+    SELECT CURRENT_TIMESTAMP;

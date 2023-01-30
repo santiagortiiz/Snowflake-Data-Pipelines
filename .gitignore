@@ -1,0 +1,6 @@
+# Datasets
+*.rar
+tcph2data/
+
+# BI
+*.pbix
