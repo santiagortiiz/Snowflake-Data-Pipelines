@@ -4,6 +4,3 @@ tcph2data/
 
 # BI
 *.pbix
-
-# Word
-~*.docx
